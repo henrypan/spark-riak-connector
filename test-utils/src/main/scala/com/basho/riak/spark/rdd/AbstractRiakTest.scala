@@ -17,19 +17,18 @@
  */
 package com.basho.riak.spark.rdd
 
-import com.basho.riak.client.core.RiakNode
-import com.basho.riak.client.core.util.HostAndPort
-import org.junit.rules.TestWatcher
-import org.junit.runner.Description
-import org.slf4j.{LoggerFactory, Logger}
-
 import java.io.IOException
 
+import com.basho.riak.client.core.RiakNode
 import com.basho.riak.client.core.query.Namespace
+import com.basho.riak.client.core.util.HostAndPort
 import com.fasterxml.jackson.core.JsonProcessingException
 import net.javacrumbs.jsonunit.JsonAssert
 import net.javacrumbs.jsonunit.core.{Configuration, Option}
-import org.junit.{Rule, Before}
+import org.junit.rules.TestWatcher
+import org.junit.runner.Description
+import org.junit.{Before, Rule}
+import org.slf4j.{Logger, LoggerFactory}
 
 
 
