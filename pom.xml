@@ -46,7 +46,7 @@
         <scala.version>2.10.5</scala.version>
         <scala.major.version>2.10</scala.major.version>
         <java.target.version>1.8</java.target.version>
-        <fasterxml.jackson.version>2.4.4</fasterxml.jackson.version>
+        <fasterxml.jackson.version>2.12.7</fasterxml.jackson.version>
     </properties>
 
     <distributionManagement>
